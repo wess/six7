@@ -1,0 +1,12 @@
+server:
+  host: "127.0.0.1"
+  port: 4040
+
+storage:
+  path: "./data"
+
+buckets:
+  - name: "test-bucket"
+    access_key: "minioadmin"
+    secret_key: "minioadmin"
+    region: "us-east-1"

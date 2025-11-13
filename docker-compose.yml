@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  six7:
+    build: .
+    ports:
+      - "4040:4040"
+    volumes:
+      - ./data:/data
+      - ./six7.yaml:/app/six7.yaml
+    environment:
+      - RUST_LOG=info
+    restart: unless-stopped
