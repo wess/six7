@@ -140,8 +140,8 @@ docker-compose up
 ### pull from github container registry
 
 ```bash
-docker pull ghcr.io/YOUR_USERNAME/six7:main
-docker run -p 4040:4040 -v $(pwd)/data:/data ghcr.io/YOUR_USERNAME/six7:main
+docker pull ghcr.io/wess/six7:main
+docker run -p 4040:4040 -v $(pwd)/data:/data ghcr.io/wess/six7:main
 ```
 
 ### build locally
